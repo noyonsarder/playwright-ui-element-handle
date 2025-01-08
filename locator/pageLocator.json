@@ -1,0 +1,11 @@
+{
+
+    "button": "//*[self::button or contains(@class,'btn')][contains(text(),'Add Element')]",
+    "delete" : "//*[self::button or contains(@class,'btn')][contains(text(),'Delete')]",
+    "basicAuth" : "//*[contains(text(),'Congratulations! You must have the proper credentials')]",
+    "checkbox" : "(//*[@type='checkbox'])[1]",
+    "disappearText" : "//a[text()='Portfolio']",
+    "notificationText": "//div[@id='flash-messages']//div[@id='flash'][contains(text(),'successful')]",
+    "notificationNew" : "//div[@id='flash-messages']//div[@id='flash'][contains(text(),'unsuccesful')]"
+
+}
